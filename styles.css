@@ -1,0 +1,68 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    background-color: rgb(36,52,71);
+}
+
+.container{
+    margin-left: 32.5rem;
+    margin-top:1.5rem;
+}
+
+.Logo{
+ margin-left:-4.5rem;
+   
+}
+
+.heading{
+    margin-left: -4.8rem;
+    font-size:1.4rem;
+    line-height: 1rem;
+    color: #ffffff;
+}
+
+.form{
+    margin-left: -5rem;
+}
+
+.form input{
+    padding: 1.25rem;
+    width: 20rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(29, 161, 242);
+    outline-style: none;
+    padding-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.btn button{
+    margin-left: -5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 23rem;
+    border-radius: 1.5rem;
+    border:none;
+    outline-style:none;
+    color: #ffffff;
+    background-color:  rgb(29, 161, 242);
+    /* opacity: .; */
+    font-size: 1.2rem;
+}
+
+.other_options p,a{
+    color:  rgb(29, 161, 242);
+}
+
+.forgot{
+    margin-left: -3rem;
+    margin-top: 2.5rem;
+    /* display: inline-block; */
+}
+
+.sign-up{
+    margin-left: 5rem;
+    margin-top: -2.1rem;
+}
+
+
+
