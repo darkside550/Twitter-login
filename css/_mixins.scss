@@ -1,0 +1,13 @@
+@mixin button{
+    margin-left: -5rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 23rem;
+        border-radius: 1.5rem;
+        border:none;
+        outline-style:none;
+        color: $white-color;
+        background-color: $primary-btn;
+        /* opacity: .; */
+        font-size: 1.2rem;
+}
