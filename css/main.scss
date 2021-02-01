@@ -1,0 +1,62 @@
+
+@import 'variable';
+@import 'mixins';
+@import 'heading';
+@import 'form';
+
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    background-color: $background-color;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex; 
+    justify-content: center;
+}
+
+
+.Logo{
+ margin-left:-4.5rem;
+   
+}
+
+
+.btn{
+
+    button{
+        @include button;
+    }
+
+} 
+
+.other_options {
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+
+        li{
+                color: $primary-btn;
+                flex-direction: row;
+                list-style-type: none;
+                /* justify-content: center; */
+
+                a{
+                    color: $primary-btn;
+                }
+            }
+            
+        }
+    }
+
+
+
+
+
