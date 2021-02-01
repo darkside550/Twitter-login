@@ -1,0 +1,14 @@
+.form{
+    margin-left: -5rem;
+
+    input{
+        padding: 1.25rem;
+        width: 20rem;
+        margin-top: 1rem;
+        border: 1px solid $primary-btn;
+        outline-style: none;
+        padding-bottom: 1.5rem;
+        border-radius: 8px;
+        color: $white-color;
+    }
+}
